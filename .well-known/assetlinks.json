@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.pictureyourtravel.pyt",
+    "sha256_cert_fingerprints":
+    ["78:C9:8B:B0:3A:47:92:8F:F1:1F:82:64:DD:5A:80:5F:B2:16:61:5E:D6:B8:65:F6:C9:5F:AE:28:16:81:44:02"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://www.pictureyourtravel.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.pictureyourtravel.pyt",
+    "sha256_cert_fingerprints":
+    ["78:C9:8B:B0:3A:47:92:8F:F1:1F:82:64:DD:5A:80:5F:B2:16:61:5E:D6:B8:65:F6:C9:5F:AE:28:16:81:44:02"]
+  }
+}]
